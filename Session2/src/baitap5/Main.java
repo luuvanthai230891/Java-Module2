@@ -2,17 +2,15 @@ package baitap5;
 
 import java.util.Scanner;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
-        Scanner number = new Scanner(System.in);
+        float rate = 23000f;
+        Scanner monney = new Scanner(System.in);
+        System.out.println("Nhap vao so usd");
+        float monneyUsd = monney.nextFloat();
 
-        System.out.println("Nhap vao 1 so tu nhien bat ky");
+        float monneyVnd = monneyUsd * rate;
 
-       int numbervalue =  number.nextInt();
-
-       if(numbervalue % 3 == 0 && numbervalue % 5 == 0){
-
-      System.out.println(numbervalue + ": chia het cho ca 3 va 5");
-}
+        System.out.println("Ti gia hien tai la :" + monneyUsd + "USD" + " = " + monneyVnd + "VND");
     }
 }
