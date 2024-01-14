@@ -1,9 +1,8 @@
-package Arr;
+package viduarr;
 
-import java.sql.Array;
 import java.util.Arrays;
 
-public class main {
+public class NoiMangVaThemPhanTu {
     public static void main(String[] args) {
         Object[] objArr1 = {"1","2","3"};
         Object[] objArr2 = {"4","5","6"};

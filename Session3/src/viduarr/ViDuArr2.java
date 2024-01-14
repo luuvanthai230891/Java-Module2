@@ -1,6 +1,4 @@
-package Arr;
-
-import java.util.Scanner;
+package viduarr;
 
 public class ViDuArr2 {
 //    public static void main(String[] args) {
