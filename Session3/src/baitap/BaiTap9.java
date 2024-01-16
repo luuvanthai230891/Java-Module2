@@ -3,7 +3,7 @@ package baitap;
 public class BaiTap9 {
     public static void main(String[] args) {
                 // Khởi tạo mảng
-                int[] array = {1, 2, 9, 3, 8, 6, 5, 4 ,10 ,12};
+                int[] array = {1, 2, 9, 3, 8, 6, 5, 4 ,10 ,12, 13, 13, 12, 14};
 
                 // Gọi phương thức tìm phần tử lớn thứ hai và in kết quả
                 int secondValue = findElementSecondMaxValue(array);
