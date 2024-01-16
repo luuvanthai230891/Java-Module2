@@ -47,4 +47,6 @@ public class QuadraticEquation {
     public double getRoot2(double a, double b, double delta) {
         return (-b - Math.sqrt(delta)) / (2 * a);
     }
+
+
 }
