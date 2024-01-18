@@ -39,6 +39,9 @@ public class Main {
         // sap xep
         Arrays.sort(arr, String::compareTo);
 
+        System.out.println( string.compareToIgnoreCase("aaaaaaaaaaaaaaa"+str));
+
+
         //contains tim kiem tuong doi
         System.out.println("kiem tra chuoi truyen vao co phai chuoi con khong:" + newStr.contains("world"));
 
